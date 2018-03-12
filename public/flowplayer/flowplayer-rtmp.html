@@ -7,7 +7,7 @@
 		include flowplayer JavaScript file that does
 		Flash embedding and provides the Flowplayer API.
 	-->
-  <script type="text/javascript" src="flowplayer-3.2.13.min.js"></script>
+  <script type="text/javascript" src="flowplayer/flowplayer-3.2.13.min.js"></script>
   <title>FlowPlayer RTMP</title>
 </head>
 <body>
@@ -20,7 +20,7 @@
 	</a>
 	<!-- this will install flowplayer inside previous A- tag. -->
 	<script>
-	flowplayer("player", "flowplayer-3.2.18.swf",{
+	flowplayer("player", "flowplayer/flowplayer-3.2.18.swf",{
 		clip: {
 		  url: 'hks',
 		  provider: 'rtmp',
@@ -28,8 +28,8 @@
 		},
 		plugins: {
 		   rtmp: {
-			 url: 'flowplayer.rtmp-3.2.13.swf',
-			 netConnectionUrl: 'rtmp://live.hkstv.hk.lxdns.com/live'
+			 url: 'flowplayer/flowplayer.rtmp-3.2.13.swf',
+			 netConnectionUrl: 'rtmp://live.hkstv.hk.lxdns.com/live/'
 		   }
 	   }
 	});
