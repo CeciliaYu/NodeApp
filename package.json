@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/CeciliaYu/NodeApp/issues"
   },
-  "homepage": "https://github.com/CeciliaYu/NodeApp#readme"
+  "homepage": "https://github.com/CeciliaYu/NodeApp#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
