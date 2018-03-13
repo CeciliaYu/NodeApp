@@ -9,8 +9,13 @@ app.get('/',function(req,res){
   //__dirname : It will resolve to your project folder.
 });
 
-app.get('/abc',function(req,res){
+app.get('/rtmp',function(req,res){
   res.sendFile(path.join(__dirname+'/public/flowplayer/flowplayer-rtmp.html'));
+});
+
+app.get('/about',function(req,res){
+  res.sendFile(path.join(__dirname+'/index.html'));
+  //__dirname : It will resolve to your project folder.
 });
 
 app.listen(8888);
