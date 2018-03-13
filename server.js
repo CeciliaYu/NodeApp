@@ -9,7 +9,7 @@ app.get('/',function(req,res){
   //__dirname : It will resolve to your project folder.
 });
 
-app.get('/flowplayer',function(req,res){
+app.get('/rtmp',function(req,res){
   res.sendFile(path.join(__dirname+'/public/flowplayer/flowplayer-rtmp.html'));
 });
 

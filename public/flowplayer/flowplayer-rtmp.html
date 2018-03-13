@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Express HTML</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <!-- A minimal Flowplayer setup to get you started -->
   <!--
@@ -8,7 +13,6 @@
 		Flash embedding and provides the Flowplayer API.
 	-->
   <script type="text/javascript" src="flowplayer/flowplayer-3.2.13.min.js"></script>
-  <title>FlowPlayer RTMP</title>
 </head>
 <body>
   <!-- this A tag is where your Flowplayer will be placed. it can be anywhere -->
@@ -29,7 +33,7 @@
 		plugins: {
 		   rtmp: {
 			 url: 'flowplayer/flowplayer.rtmp-3.2.13.swf',
-			 netConnectionUrl: 'rtmp://cstreaming-cmediaserver.channel.mediaservices.windows.net:1936/live/defc7b671dcd4170be257e08b631b943'
+			 netConnectionUrl: 'rtmp://live.hkstv.hk.lxdns.com/live/'
 		   }
 	   }
 	});
